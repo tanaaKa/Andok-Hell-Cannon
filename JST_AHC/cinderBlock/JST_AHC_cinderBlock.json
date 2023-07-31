@@ -1,0 +1,53 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "shaders": {
+        "Main shader": {
+            "materials": {
+                "hdr_environment_texture": ""
+            },
+            "parameters": {
+                "ambient_constant": [
+                    1,
+                    1,
+                    1
+                ],
+                "diffuse_constant": [
+                    1,
+                    1,
+                    1
+                ],
+                "emissive_constant": [
+                    0,
+                    0,
+                    0
+                ],
+                "emissive_scale_constant": 0,
+                "environment_source": 0,
+                "forced_diffuse_constant": [
+                    0,
+                    0,
+                    0
+                ],
+                "fresnel_k_constant": 7,
+                "fresnel_n_constant": 1.2999999523162842,
+                "lighting_mode": 0,
+                "preview_mode": 0,
+                "specular_constant": [
+                    0.25,
+                    0.25,
+                    0.25
+                ],
+                "specular_power_constant": 40
+            },
+            "shader": "arma3apex",
+            "shaderInstance": "Main shader"
+        }
+    },
+    "texturesets": {
+        "block": {
+            "shader": "Main shader"
+        }
+    }
+}
